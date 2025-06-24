@@ -1,0 +1,7 @@
+1.I forgot to use the full object (not just the value) in evaluation, which gave an error. Fixed it by storing the full result object.
+2.The consistency check between tier and priority failed at first — because I was comparing strings instead of objects.
+3. Routing agent didn’t recognize some keywords like “feature” and “request” in the beginning. Had to add them manually.
+4. I was not sure what “prompt iteration” meant — but later wrote the steps of my thought process in the chat history file.
+5. Accuracy for priority labels is still not perfect (60%)
+6. had to double-check which Python version to use — first tried 3.13 but switched to 3.10 for compatibility.
+7. Didn’t have time to do the optional video yet — may record it later if needed.

@@ -1,0 +1,43 @@
+# AI Chat History – Gaurav Chawla
+
+[1] Project Understanding:
+- I read the instructions and chose Option A: Customer Support Ticket Analyzer.
+- The task was to create at least 2 agents that analyze and route support tickets.
+
+[2] Initial Setup:
+- Created project folders and files (agents, evaluation, docs, main.py)
+- Made a virtual environment using Python 3.10.
+- Installed libraries: pydantic, openai, tqdm, colorama, dotenv.
+
+[3] Priority Agent:
+- Built an agent that decides ticket urgency based on:
+  - customer tier
+  - monthly revenue
+  - issue keywords
+  - previous tickets
+- Output priority as: low, medium, high or critical.
+
+[4] Routing Agent:
+- Made a second agent that routes tickets to the right team:
+  - security, dev, support, product, account, escalation
+- Used keywords from subject/message to decide team.
+
+[5] Testing:
+- Added 5 test tickets from the assignment PDF.
+- Created `test_cases.py` and used them in `main.py`.
+
+[6] Evaluation Metrics:
+- Created accuracy, tier-priority consistency, and distribution checks.
+- Wrote them in evaluation/metrics.py.
+
+[7] Final Integration:
+- Updated main.py to run both agents on all test cases.
+- Printed results and metrics clearly.
+
+[8] Documentation:
+- Wrote README.md to explain everything.
+- Wrote what didn’t work in writeup.md.
+- Saved this AI chat history here.
+
+[9] Result:
+- Project is tested, working correctly, and ready to submit.
