@@ -1,6 +1,6 @@
 # Draconic_casestudy_Task
 
-# Draconic Case Study – Customer Support Ticket Analyzer (Option A)
+Customer Support Ticket Analyzer (Option A)
 
 Hi! This is my submission for the Draconic AI/ML Engineer Case Study.  
 I chose **Option A** – building a support ticket analyzer using multiple AI agents.
